@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 20px;
+
+}
+header > a {
+    color: white;
+    text-decoration: none;
+}
+.search-bar{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+#search-input{
+    width: 300px;
+    margin-right: 5px;
+    border: 1px solid #333;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 0 7px;
+}
+#search-button{
+    background-color: #333;
+    color: white;
+    width: 80px;
+    padding: 4px;
+    border-radius: 3px;
+}
+.sorting-options{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sort-by-date{
+    padding: 2px;
+    margin-right: 10px;
+    width: 225px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sort-by-rating{
+    padding: 2px;
+    width: 225px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tabs{
+   display: flex;
+   justify-content: flex-start;
+   gap: 10px;
+   margin-left: 40px;
+   
+}
+#all-tab{
+    background-color: #333;
+    color: white;
+    padding: 3px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+   cursor: pointer;
+}
+#favorites-tab{
+    padding: 3px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 375px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+#movies-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.poster{
+    object-fit: cover;
+    height: 250px;
+    width: 200px;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* .fa-heart{
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: -1000px;
+} */
+.vote-favoriteIcon{
+    display: flex;
+    justify-content: space-around;
+}
+.vote-count,
+.vote-average{
+    font-size:14px;
+}
+#favorite-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    place-items: center;
+    margin-top: 15px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   
+}
+#prev-button,
+#page-number-button,
+#next-button{
+    margin-right: 10px;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
